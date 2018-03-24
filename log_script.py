@@ -1,4 +1,5 @@
 #!usr/bin/python
+#Python script used to display the error_logs of web services (/var/log/httpd/error_log)
 import os
 
 f = open("/var/log/httpd/error_log","r")
